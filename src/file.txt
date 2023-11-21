@@ -1,0 +1,18 @@
+The purpose of this research is to investigate the effect of jitter on
+range measurement in AMCW ToF range imaging. This is achieved by three
+main contributions: a development of a common algorithm for measurement of
+the jitter present in signals from depth cameras, secondly the proposal of a cost
+effective alternative method to measure jitter by using a software defined radio
+receiver, and finally an analysis of the influence of jitter on range measurement.
+Among the three contributions of this thesis, first, an algorithm for jitter
+extraction of a signal without access to a reference clock signal is proposed.
+The proposed algorithm is based upon Fourier analysis with signal processing
+techniques and it can be used for real time jitter extraction on a modulated
+signal with any kind of shape (sinusoidal, triangular, rectangular). The method
+is used to measure the amount of jitter in the light signals of two AMCW
+ToF range imaging cameras, namely, MESA Imaging SwissRanger 4000 and
+SoftKinetic DepthSense 325. Periodic and random jitter were found to be
+present in the light sources of both cameras with the MESA camera notably
+worse with random jitter of 159.6 ps RMS in amplitude. Next, in a novel approach,
+an inexpensive software defined radio (SDR) USB dongle is used with the proposed
+algorithm to extract the jitter in the light signal of the above two ToF cameras.
